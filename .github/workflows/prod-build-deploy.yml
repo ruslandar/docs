@@ -27,7 +27,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Check out repo
-        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
         with:
           persist-credentials: 'false'
           lfs: 'true'
