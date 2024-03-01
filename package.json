@@ -32,7 +32,7 @@
     "express": "^4.17.1",
     "express-rate-limit": "^5.5.1",
     "express-timeout-handler": "^2.2.2",
-    "flat": "^5.0.2",
+    "flat": "^6.0.1",
     "github-slugger": "^1.4.0",
     "got": "^11.8.2",
     "gray-matter": "^4.0.3",
