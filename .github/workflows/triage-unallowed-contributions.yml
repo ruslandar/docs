@@ -76,7 +76,7 @@ jobs:
       # explaining this to the PR author
       - name: "Comment about changes we can't accept"
         if: ${{ steps.filter.outputs.notAllowed }}
-        uses: actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d
+        uses: actions/github-script@91a83c091797b22c5771b1d7178fd0fddacc73ea
         with:
           script: |
             const badFilesArr = [
